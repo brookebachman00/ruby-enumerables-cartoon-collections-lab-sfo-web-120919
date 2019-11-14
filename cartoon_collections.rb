@@ -27,11 +27,11 @@ def find_the_cheese(array)# code an argument here
   index = 0
   new_array = []
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.each do |thing|
-    if cheese_types.include?(thing)
+  cheese_types.each do |thing|
+    if array.include?(thing)
       return thing
     end
       return nil
-    
+
   end
 end
