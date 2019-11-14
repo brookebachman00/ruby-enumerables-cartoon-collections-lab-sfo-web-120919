@@ -29,5 +29,4 @@ def find_the_cheese(array)# code an argument here
     new_array << "cheese_types"
   end
   return new_array
-
 end
