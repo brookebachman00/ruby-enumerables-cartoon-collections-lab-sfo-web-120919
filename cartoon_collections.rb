@@ -6,6 +6,9 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(planeteer_calls)
+  planeteer_calls.each |thing| do
+    puts "#{thing}.upcase + '!'"
+  end
   # code an argument here
   # Your code here
 end
