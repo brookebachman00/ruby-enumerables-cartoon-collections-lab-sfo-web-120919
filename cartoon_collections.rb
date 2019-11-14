@@ -6,7 +6,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.each |thing| do
+  planeteer_calls.method-i-map |thing| do
     puts "#{thing}.upcase + '!'"
   end
   # code an argument here
