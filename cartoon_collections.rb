@@ -27,8 +27,8 @@ def find_the_cheese(array)# code an argument here
   index = 0
   new_array = []
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if array.include?("cheese_types")
-    new_array << array[index]
+  if cheese_types.include?(array)
+    new_array << cheese_types[index]
   end
   return new_array
 end
