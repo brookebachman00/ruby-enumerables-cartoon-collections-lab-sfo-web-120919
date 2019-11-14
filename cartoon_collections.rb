@@ -30,8 +30,8 @@ def find_the_cheese(array)# code an argument here
   array.each do |thing|
     if cheese_types.include?(thing)
       return thing
-    else
-      return nil
     end
+      return nil
+    
   end
 end
