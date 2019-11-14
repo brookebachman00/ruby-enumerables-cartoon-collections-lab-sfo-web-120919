@@ -21,12 +21,6 @@ def long_planeteer_calls(array)
   end
 end
 
-
-
-  # code an argument here
-  # Your code here
-end
-
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   new_array = []
