@@ -1,9 +1,9 @@
-def roll_call_dwarves(array)
-  array.each_with_index |dwarf,index| do
-    puts dwarf
-    puts index
-  end
-end
+# def roll_call_dwarves(array)
+#   array.each_with_index |dwarf,index| do
+#     puts dwarf
+#     puts index
+#   end
+# end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map |thing| do
