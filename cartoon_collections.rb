@@ -32,6 +32,7 @@ def find_the_cheese(array)# code an argument here
       new_array << thing
     else
       return nil
+    end
   end
   return new_array
 end
