@@ -1,12 +1,12 @@
 def roll_call_dwarves(array)
-  array.each_with_index |dwarf,index| do
+  array.each_with_index do |dwarf,index|
     # puts dwarf
     # puts index
   end
 end
 
 # def summon_captain_planet(planeteer_calls)
-#   planeteer_calls.map |thing| do
+#   planeteer_calls.map do |thing|
 #     puts "#{thing}.upcase + '!'"
 #   end
 #   # code an argument here
